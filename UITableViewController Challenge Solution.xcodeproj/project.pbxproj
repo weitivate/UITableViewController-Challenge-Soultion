@@ -14,13 +14,13 @@
 		1FF26735197903C4009C876E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FF26734197903C4009C876E /* main.m */; };
 		1FF26739197903C4009C876E /* DWAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FF26738197903C4009C876E /* DWAppDelegate.m */; };
 		1FF2673C197903C4009C876E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FF2673A197903C4009C876E /* Main.storyboard */; };
-		1FF2673F197903C4009C876E /* DWViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FF2673E197903C4009C876E /* DWViewController.m */; };
 		1FF26741197903C4009C876E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FF26740197903C4009C876E /* Images.xcassets */; };
 		1FF26748197903C4009C876E /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FF26747197903C4009C876E /* XCTest.framework */; };
 		1FF26749197903C4009C876E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FF26728197903C4009C876E /* Foundation.framework */; };
 		1FF2674A197903C4009C876E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FF2672C197903C4009C876E /* UIKit.framework */; };
 		1FF26752197903C4009C876E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1FF26750197903C4009C876E /* InfoPlist.strings */; };
 		1FF26754197903C4009C876E /* UITableViewController_Challenge_SolutionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FF26753197903C4009C876E /* UITableViewController_Challenge_SolutionTests.m */; };
+		1FF2675F1979057A009C876E /* DWTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FF2675E1979057A009C876E /* DWTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,14 +45,14 @@
 		1FF26737197903C4009C876E /* DWAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DWAppDelegate.h; sourceTree = "<group>"; };
 		1FF26738197903C4009C876E /* DWAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DWAppDelegate.m; sourceTree = "<group>"; };
 		1FF2673B197903C4009C876E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		1FF2673D197903C4009C876E /* DWViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DWViewController.h; sourceTree = "<group>"; };
-		1FF2673E197903C4009C876E /* DWViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DWViewController.m; sourceTree = "<group>"; };
 		1FF26740197903C4009C876E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		1FF26746197903C4009C876E /* UITableViewController Challenge SolutionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UITableViewController Challenge SolutionTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FF26747197903C4009C876E /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		1FF2674F197903C4009C876E /* UITableViewController Challenge SolutionTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UITableViewController Challenge SolutionTests-Info.plist"; sourceTree = "<group>"; };
 		1FF26751197903C4009C876E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1FF26753197903C4009C876E /* UITableViewController_Challenge_SolutionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UITableViewController_Challenge_SolutionTests.m; sourceTree = "<group>"; };
+		1FF2675D1979057A009C876E /* DWTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DWTableViewController.h; sourceTree = "<group>"; };
+		1FF2675E1979057A009C876E /* DWTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DWTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,8 +115,8 @@
 				1FF26737197903C4009C876E /* DWAppDelegate.h */,
 				1FF26738197903C4009C876E /* DWAppDelegate.m */,
 				1FF2673A197903C4009C876E /* Main.storyboard */,
-				1FF2673D197903C4009C876E /* DWViewController.h */,
-				1FF2673E197903C4009C876E /* DWViewController.m */,
+				1FF2675D1979057A009C876E /* DWTableViewController.h */,
+				1FF2675E1979057A009C876E /* DWTableViewController.m */,
 				1FF26740197903C4009C876E /* Images.xcassets */,
 				1FF2672F197903C4009C876E /* Supporting Files */,
 			);
@@ -251,8 +251,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				1FF26735197903C4009C876E /* main.m in Sources */,
-				1FF2673F197903C4009C876E /* DWViewController.m in Sources */,
 				1FF26739197903C4009C876E /* DWAppDelegate.m in Sources */,
+				1FF2675F1979057A009C876E /* DWTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,5 +1,5 @@
 //
-//  DWViewController.h
+//  DWTableViewController.h
 //  UITableViewController Challenge Solution
 //
 //  Created by Dylan Wei on 18/7/14.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface DWViewController : UIViewController
+@interface DWTableViewController : UITableViewController
 
 @end
